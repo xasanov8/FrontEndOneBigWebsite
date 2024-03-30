@@ -1,0 +1,610 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Geologica:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Geologica:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Protest+Strike&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Geologica:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Protest+Strike&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* ######## start home ########## */
+
+.home {
+    height: 100vh;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.nav {
+    height: 10vh;
+}
+
+.nav .img {
+    float: left;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav .img img {
+    width: 17%;
+}
+
+.nav ul {
+    display: flex;
+    align-items: center;
+    float: left;
+    width: 60%;
+    padding: 0;
+    height: 100%;
+}
+
+.nav ul li {
+    display: inline-block;
+    font-size: 11px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    letter-spacing: 3px;
+    margin-right: 30px;
+    font-family: sans-serif;
+}
+
+.nav ul li:first-child{
+    border-top: 0.5px solid black;
+    border-bottom: 0.5px solid black;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* ################################ */
+
+.box {
+    height: 85vh;
+}
+
+.box .box-1 {
+    height: 100%;
+    float: left;
+    width: 40%;
+}
+
+.box .box-1 .text {
+    height: 50%;
+    display: flex;
+    align-items: end;
+}
+
+.box .box-1 .text p {
+    font-family: "Geologica", sans-serif;
+    font-weight: 100;
+    color: #BDBDBD;
+    font-size: 60px;
+    margin: 0;
+}
+
+.box .box-1 .text h1 {
+    font-family: "Asap", sans-serif;
+    font-weight: 600;
+    font-size: 65px;
+    margin: 0;
+}
+
+.box .box-1 .buttons {
+    height: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.box .box-1 .buttons button {
+    border: 2px solid rgb(206, 206, 206);
+    font-size: 15px;
+    margin-right: 40px;
+    width: 50px;
+    height: 50px;
+}
+
+.box .box-1 .buttons .btn2 {
+    background-color: #F2F2F2;
+}
+
+.box .box-1 .nums {
+    height: 20%;
+}
+
+.box .box-1 .nums p{
+    font-size: 30px;
+    color: #E0E0E0;
+    font-family: "Geologica", sans-serif;
+}
+
+.box .box-2 {
+    height: 100%;
+    float: left;
+    width: 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.box .box-2 img {
+    height: 100%;
+    width: 100%;
+}
+.box .box-2 button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    padding: 10px;
+    font-size: 12px;
+    letter-spacing: 2.5px;
+    width: 40%;
+    height: 10%;
+}
+
+.box .box-2 button i {
+    padding-left: 15px;
+    font-size: 15px;
+}
+
+/* ######## end home ########## */
+/* ######## start galereya ########## */
+
+.galereya {
+    height: 100vh;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.galereya .box {
+    height: 60%;
+    width: 100%;
+}
+
+.galereya .box .box-1 {
+    height: 75%;
+    width: 100%;
+    background-color: #FBFBFB;
+}
+
+.galereya .box-1-in {
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.galereya .box .box-1 .imges {
+    float: left;
+    width: 30%;
+    height: 100%;
+}
+
+.galereya .box .box-1 .imges img {
+    margin-top: 30px;
+}
+
+.galereya .box .box-1 .img {
+    float: left;
+    display: flex;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+}
+
+.galereya .box .box-1 .place {
+    float: left;
+    width: 40%;
+    height: 100%;
+}
+
+.galereya .box .box-1 .place p:first-child {
+    font-size: 45px;
+    letter-spacing: 0.5px;
+    font-family: "Geologica", sans-serif;
+    font-weight: 200;
+    margin: 0;
+    color: #BDBDBD;
+}
+
+.galereya .box .box-1 .place button {
+    background-color: #fff;
+    margin-top: 10px;
+    height: 13%;
+    width: 50%;
+    font-size: 12px;
+    border: 1px solid black;
+}
+
+.galereya .box .box-1 .place button i {
+    padding-left: 15px;
+    font-size: 15px;
+}
+
+.galereya .box-2 {
+    height: 40%;
+    color: #F2F2F2;
+}
+
+.galereya .p {
+    padding-top: 10px;
+    font-size: 50px;
+    letter-spacing: 0.5px;
+    font-family: "Geologica", sans-serif;
+    font-weight: 200;
+    color: #BDBDBD;
+}
+
+.galereya .box-2 div {
+    float: left;
+    width: 50%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.galereya .box-2 div h1{
+    font-size: 150px;
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.galereya .box-2 div p:first-child {
+    padding-left: 50px;
+    font-size: 18px;
+    color: black;
+}
+
+.galereya .box-2 div p:last-child {
+    width: 79%;
+    padding-left: 50px;
+    font-size: 18px;
+    color: black;
+}
+
+/* ######## end galereya ########## */
+/* ######## start proyekt ########## */
+
+.proyekt {
+    width: 70%;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.proyekt p {
+    padding-top: 10px;
+    font-size: 50px;
+    font-family: "Geologica", sans-serif;
+    font-weight: 200;
+    color: #BDBDBD;
+    height: 15%;
+    display: flex;
+    align-items: center;
+}
+
+.proyekt .boxes {
+    height: 70%;
+}
+
+.proyekt .boxes .box-1 {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: end;
+}
+
+.proyekt .boxes .box-1 .img {
+    float: right;
+    width: 48%;
+    height: 90%;
+    background-image: url(./images/Group6.png);
+    background-color: #232020c6;
+    margin-right: 40px;
+    background-size: cover;
+}
+
+.proyekt .boxes .box-1 .img .img-in {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(46, 45, 45, 0.744);
+}
+
+.proyekt .boxes .box-1 .img .img-in .text {
+    width: 90%;
+    float: right;
+}
+
+.proyekt .boxes .box-1 .img .img-in p{
+    font-family: "Geologica", sans-serif;
+    font-weight: 600;
+    color: #fff;
+    width: 60%;
+    padding: 0;
+    margin: 0;
+    line-height: 50px;
+}
+
+.proyekt .boxes .box-1 .img .img-in p:first-child {
+    margin-top: 60px;
+}
+
+
+.proyekt .boxes .box-1 .img .img-in button{
+    font-size: 12px;
+    margin-top: 30px;
+    letter-spacing: 3px;
+}
+
+.proyekt .boxes .box-1 .img .img-in button i {
+    padding-left: 15px;
+    font-size: 15px;
+}
+
+.proyekt .boxes .box-1 img {
+    width: 48%;
+    height: 90%;
+    float: right;
+}
+
+.proyekt .boxes .box-2 {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.proyekt .boxes .box-2 img:first-child {
+    width: 23%;
+}
+
+.proyekt .boxes .box-2 img:nth-child(2){
+    width: 40%;
+    margin-left: 29px;
+    margin-right: 29px;
+}
+
+.proyekt .boxes .box-2 img:nth-child(3){
+    width: 31.5%;
+}
+
+.proyekt .button{
+    text-align: right;
+    width: 100%;
+    height: 15%;
+}
+
+.proyekt .button button {
+    background-color: black;
+    margin-top: 10px;
+    height: 50%;
+    width: 20%;
+    font-size: 12px;
+    border: 1px solid black;
+}
+
+.proyekt .button button i {
+    padding-left: 15px;
+    font-size: 15px;
+}
+
+/* ######## end proyekt ########## */
+/* ######## start kontakt ########## */
+
+.kontakt {
+    height: 100vh;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kontakt .kontakt-in {
+    width: 100%;
+    height: 90%;
+}
+
+.kontakt .p {
+    padding-top: 10px;
+    font-size: 50px;
+    font-family: "Geologica", sans-serif;
+    font-weight: 200;
+    color: #BDBDBD;
+    height: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.kontakt .boxes {
+    height: 50%;
+    display: flex;
+}
+
+.kontakt .boxes .box-1 {
+    width: 34%;
+    height: 100%;
+    margin-right: 25px;
+}
+
+.kontakt .boxes .box-1 .inputs input {
+    margin-top: 15px;
+    width: 100%;
+    border: none;
+    height: 50px;
+    background-color: #F3F3F3;
+    padding: 10px 10px 10px 25px;
+    display: block;
+}
+
+.kontakt .boxes .box-1 .inputs input:first-child {
+    margin-top: 0;
+}
+
+.kontakt .boxes .box-1 .inputs textarea {
+    margin-top: 15px;
+    width: 100%;
+    color: rgb(120, 119, 119);
+    border: none;
+    height: 130px;
+    background-color: #F3F3F3;
+    padding: 10px 10px 10px 25px;
+    display: block;
+}
+
+/* .kontakt .boxes .box-1 .inputs input:last-child {
+    height: 175px;
+    display: flex;
+    align-items: start;
+} */
+
+.kontakt .boxes .box-2 {
+    width: 64%;
+    height: 100%;
+}
+
+.kontakt .boxes .box-2 img {
+    height: 100%;
+}
+
+.kontakt .text {
+    height: 10%;
+    font-size: 13px;
+    font-family: "Geologica", sans-serif;
+    font-weight: 100;
+    width: 35%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.kontakt .text p {
+    margin: 10px 30px;
+    text-align: start;
+}
+
+.kontakt .button{
+    width: 100%;
+    height: 15%;
+}
+
+.kontakt .button button {
+    background-color: black;
+    margin-top: 10px;
+    height: 50%;
+    width: 20%;
+    font-size: 12px;
+    border: 1px solid black;
+}
+
+.kontakt .button button i {
+    padding-left: 15px;
+    font-size: 15px;
+}
+
+/* ######## end kontakt ########## */
+/* ######## start footer ########## */
+
+.footer {
+    width: 100%;
+    height: 50vh;
+    background-color: #2C2C2C;
+}
+
+.footer .footer-1 {
+    height: 85%;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+}   
+
+.footer .footer-1 div {
+    padding-top: 50px;
+}
+
+.footer .footer-1 .img{
+    width: 20%;
+    height: 100%;
+}
+
+.footer .footer-1 .img img {
+    width: 60%;
+}
+
+.footer .footer-1 .box-1 {
+    width: 25%;
+    height: 100%;
+}
+
+.footer .footer-1 .p {
+    font-family: "Geologica", sans-serif;
+    font-weight: 600;
+    color: #fff;
+}
+
+.footer .footer-1 .box-2 {
+    width: 35%;
+    height: 100%;
+}
+
+.footer .footer-1 .box-2 {
+    float: left;
+    width: 35%;
+    height: 100%;
+}
+
+.footer .footer-1 .box-2 ul li a{
+    display: flex;
+    margin-top: 30px;
+    width: 100%;
+    font-family: "Geologica", sans-serif;
+    letter-spacing: 1px;
+    font-weight: 200;
+}
+
+.footer .footer-1 .box-2 ul li a i {
+    color: #fff;
+    width: 10%;
+}
+
+.footer .footer-1 .box-2 ul li a p {
+    font-size: 12px;
+    color: #fff;
+    width: 70%;
+}
+
+.footer .footer-1 .box-3 {
+    height: 100%;
+    width: 20%;
+}
+
+.footer .footer-1 .box-3 .icons {
+    padding-top: 20px;
+}
+
+.footer .footer-1 .box-3 .icons i {
+    color: #fff;
+    width: 20%;
+    font-size: 25px;
+}
+
+.footer hr {
+    height: 3px;
+    color: #fff;
+}
+
+.footer .footer-2 {
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2C2C2C;
+}
+
+/* ######## end footer ########## */
